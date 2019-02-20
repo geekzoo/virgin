@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-export http_proxy=http://192.168.1.19:3128/
+#export http_proxy=http://192.168.1.19:3128/
 mkimg="$(basename "$0")"
 software="jq dnsutils wget curl ngrep vim grc htop gawk pv pigz glances nmon rsync rsyslog socat socket byobu"
 
